@@ -12,5 +12,7 @@ def test_karatsuba_multiplication():
     assert 12 * 12 == karatsuba_multiplication(12, 12)
     assert 2 * 2 == karatsuba_multiplication(2, 2)
     assert 2 * 13 == karatsuba_multiplication(2, 13)
+    assert 123 * 123 == karatsuba_multiplication(123, 123)
     assert 1234 * 5678 == karatsuba_multiplication(1234, 5678)
+    assert 12345 * 12345 == karatsuba_multiplication(12345, 12345)
 
